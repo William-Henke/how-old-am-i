@@ -1,0 +1,37 @@
+body {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(163, 235, 231);
+}
+
+#birthday {
+    border-radius: 10px;
+    padding: 5px 5px;
+}
+
+#submit {
+    margin: 10px 10px;
+    border-radius: 10px;
+    background-color: lightslategrey;
+    color: white;
+    padding: 5px 5px;
+    font-family: Cambria, Cochin, Georgia;
+}
+
+#age {
+    font-size: larger;
+}
+
+#stage1 {
+    display: block;
+}
+
+#stage2 {
+    display: none;
+}
+
+#confetti {
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
